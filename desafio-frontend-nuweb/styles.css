@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+html, body {
+  height: 100%;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overscroll-behavior: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body, input, textarea, select, button {
+  font: 500 1rem 'Poppins', sans-serif;
+  letter-spacing: 0.03rem;
+  color: #2D3748 !important;
+}
+
+a, button, input {
+  border: none;
+  background: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a, button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+body {
+  background-color: rgb(248,248,248);
+}
+/*<---------------------------------------------------------------->*/
+/*<------------------------ Topo da Pagina ------------------------>*/
+/*<---------------------------------------------------------------->*/
+
+#ImgsCima .logo {
+  height: 175px;
+  text-align: center;
+}
+
+/*<---------------------------------------------------------------->*/
+/*<----------------------- Barra de Pesquisa ---------------------->*/
+/*<---------------------------------------------------------------->*/
+
+#searchBar {
+  text-align: center;
+}
+
+.Searchbar, .btnBuscar {
+  display: inline-block !important;
+  box-sizing: content-box;
+}
+
+.searchBar input {
+  border: 1.5px solid rgb(207, 207, 207);
+  border-radius: 7.5px;
+  width: 815px;
+  padding: 3.2px 15px;
+  font-size: 15px;
+  text-align: center;
+  color:rgb(207, 207, 207);
+}
+
+.btnBuscar {
+  background-color: rgb(234, 89, 147);
+  font-size: 11.2px;
+  padding: 8px;
+  margin-left: 11px;
+  border-radius: 7.5px;
+  color: white !important;
+}
+
+/*<---------------------------------------------------------------->*/
+/*<----------------------- Lista de Musicas ----------------------->*/
+/*<---------------------------------------------------------------->*/
+
+#boxMusicas {
+  margin: 80px 0;
+}
+
+#boxMusicas .boxMusicas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 15px 21px;
+}
+
+#boxMusicas .boxMusicas .time {
+  font-size: 13px;
+}
+
+#boxMusicas .boxMusicas .geral-boxMusicas {
+  display: flex;
+  align-items: center;
+}
+
+.geral-boxMusicas img {
+  border-radius: 6.5px;
+  width: 6.5px;
+}
+
+.infoMusicas {
+  margin-left: 8px;
+}
+
+.infoMusicas {
+  font-size: 14.5px;
+  letter-spacing: 0px;
+}
+
+.infoMusicas h2 {
+  font-size: 10px;
+}
+
+h6 {
+  font-size: 10px;
+  text-decoration: italic;
+}
+
+.time {
+  font-weight: 700;
+}
